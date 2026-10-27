@@ -34,3 +34,26 @@ coverage/
 .idea/
 .DS_Store
 Thumbs.db
+
+# Google ADK session data
+.adk/
+**/.adk/
+*.db
+
+# API keys and environment variables
+.env
+.env.*
+**/.env
+**/.env.*
+
+# Python virtual environment and cache
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Node dependencies and build files
+node_modules/
+**/node_modules/
+dist/
+**/dist/
